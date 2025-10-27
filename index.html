@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tennis Queen Khushi™</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container fade-in">
+        
+        <h1 class="brand">Tennis Queen Khushi™</h1>
+        <p class="subscribers">103,202 subscribers</p>
+        <p class="owner">Dm Paid👉 @KHUSHl_TIPS</p>
+        
+        <p class="line">Life Bnadugi Sabhi Ki Bne Raho Channel Me❤️</p>
+        <p class="line">Aara Hun Market Me Se🌪️!!</p>
+
+        <div class="timer-box">
+            <p class="timer-title">Next Jackpot Update In:</p>
+            <span class="timer" id="countdown">60</span> <span class="sec">sec</span>
+        </div>
+
+        <a href="https://t.me/+Sp3gqTh_tCsxNTdl" class="join-btn">Join [Tennis Queen Khushi™] Channel 🔥</a>
+
+        <div class="safe-disclaimer">
+            ⚠️Disclaimer: We are not promoting gambling from any platform. This content is only for countries where legal ✅
+        </div>
+    </div>
+
+    <script>
+        let timeLeft = 60;
+        const timerDisplay = document.getElementById("countdown");
+
+        const countdownTimer = setInterval(() => {
+            timeLeft--;
+            timerDisplay.textContent = timeLeft;
+
+            if (timeLeft <= 0) {
+                timeLeft = 60;
+            }
+        }, 1000);
+    </script>
+
+</body>
+</html>
